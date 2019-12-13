@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Портфолио заново</title>
+	<link rel="stylesheet" type="text/css" href="style-remake.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+	<div class="overlay"></div>
+	<div class="popup">
+		<div class="popup_feedback_form">
+			<a class="close"><span>&#10006;</span></a>
+				<form method="post" action="https://echo.htmlacademy.ru/">
+				<label for="name_input">Введите имя</label>
+				<input id= "name_input" type="text" name="name" required="required" />
+				<label for="tel">Введите номер</label>
+				<input id="tel" type="tel" name="tel"  required="required" pattern="\+\d-\d\d\d-\d\d\d-\d\d\d\d" placeholder="+7(XXX)XXX-XX-XX"/>
+			<input class="post_input" type="submit" value="Отправить" />
+				</form>
+	</div>
+	</div>
+
+	<header class="header">
+			<div class="fixed-container flex-container">
+				<button class="header__mobile-menu"></button>
+				<nav class="header__services">
+					<a href="#business" class="header__services_first"><span>Услуги</span></a>
+					<a href="#job" class="header__services_second"><span>Портфолио</span></a>
+					<a href="#price" class="header__services_first"><span>Стоимость</span></a>
+				</nav>
+				<div class="header__phone-btn">
+					<a href="tel:+79202888289"><span class="header__phone-btn_number">+7 (920)-288-82-89</span></a>
+					<button class="show_popup call">Заказать звонок</button>
+				</div>
+				<div class="header__mobile-little">
+					<button class="hamburger"></button>
+					<span class="header__phone-btn_number2"><a href="tel:+79202888289">+7 (920)-288-82-89</a></span>
+					<button class="show_popup header__phone-btn_little-call"></button>
+				</div>
+			</div>	
+	</header>
+	<div class="center">
+			<span class="element center__one">{ }</span>
+			<span class="element center__two">&lt;div&gt;</span>
+			<span class="element center__three">#</span>
+			<span class="element center__four">&lt;div&gt;</span>
+			<span class="element center__five">&lt;/&gt;</span>
+			<span class="element center__six">&lt;/&gt;</span>
+		<div class="middle fixed-container flex-container-center">
+			<div class="center__name">
+				<h1>Никита Абрамов</h1>
+				<p>Frontend-разработчик и веб-верстальщик</p>
+				<button class="show_popup center__name_know-more">Узнать больше</button>
+			</div>
+			<img class = "center__name_img" src="img/man4.png" alt="student with book">
+		</div>
+		<div class="center__name_mobile">
+			<h1>Никита Абрамов</h1>
+			<p>Frontend-разработчик и веб-верстальщик</p>
+			<button class="show_popup center__name_know-more-little">Узнать больше</button>
+		</div>
+	</div>
+	<div class="my-services">
+		<div class="fixed-container">
+			<a class="scrolling-box" id="business"></a>
+			<h1>Что я делаю</h1>
+			<div class="my-services__doings flex-container">
+				<div class="my-services__doings_deals">
+					<img src="img/1.png" alt="pink icon">
+					<p>Вёрстка лэдинг-страниц и сайтов любой сложности</p>
+				</div>
+				<div class="my-services__doings_deals">
+					<img src="img/2.png" alt="pink icon">
+					<p>Адаптивная вёрстка под все браузеры и устройства</p>
+				</div>
+				<div class="my-services__doings_deals">
+					<img src="img/3.png" alt="pink icon">
+					<p>Frontend разработка и программирование</p>
+				</div>
+				<div class="my-services__doings_deals">
+					<img src="img/4.png" alt="pink icon">
+					<p>Исправление и доработка существующей вёрстки</p>
+				</div>
+			</div>
+			<button class="show_popup my-services__know-more2">Узнать стоимость</button>
+		</div>
+	</div>
+	<div class="my-examples">
+		<div class="my-examples__headline fixed-container">
+			<a class="scrolling-box" id="job"></a>
+			<h1>Примеры моих работ</h1>
+			<div class="arrows">
+				<button class="next_button"></button>
+				<button class="back_button"></button>
+			</div>
+				<div class="my-examples__slick flex-container">
+					<div class="my-examples__headline_works">	
+						<img src="img/5.png" alt="psychology site">
+						<p>Сайт психолога Веры Антоновой</p>
+					</div>
+					<div class="my-examples__headline_works">
+						<img src="img/6.png" alt="children clothes">
+						<p>Сайт магазина детской одежды</p>
+					</div>
+					<div class="my-examples__headline_works">
+						<img src="img/7.png" alt="fishers equipment">
+						<p>Сайт магазина "Рыболов"</p>
+					</div>
+					<div class="my-examples__headline_works">	
+						<img src="img/5.png" alt="psychology site">
+						<p>Сайт психолога Веры Антоновой</p>
+					</div>
+				</div>
+				<button class="show_popup my-examples__headline_know-more2">Заказать проект</button>
+		</div>
+	</div>
+ 	<div class="adaptive">
+ 			<span class="adaptive__one">{  }</span>
+ 			<span class="adaptive__two">&lt;/&gt;</span>
+			<span class="adaptive__three">#</span>
+			<span class="adaptive__four">&lt;div&gt;</span>
+			<span class="adaptive__five">{  }</span>
+ 		<div class="adaptive__all-devices fixed-container">
+ 			<a class="scrolling-box" id="price"></a>
+ 			<h2>Адаптивная вёрстка под все устройства и браузеры от 1000 рублей всего за 4 часа</h2>
+			<p>* Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально, в зависимости от сложности задач</p>
+ 		</div>
+ 	</div>
+ 	<div class="others">
+ 		<div class="fixed-container flex-container others__about">
+ 			<nav class="others__about_list scrolling-box">
+ 				<ul>
+ 					<li><a href="#business">Услуги</a></li>
+ 					<li><a href="#job">Портфолио</a></li>
+ 					<li><a href="#price">Стоимость</a></li>
+ 				</ul>
+ 			</nav>
+ 			<div class="others__about_phone-mail">
+				<div class="phone"><a href="tel:+7(920)288-82-89">+7(920)288-82-89</a></div>
+				<div class="mail"><a href="mailto:Nikita@Abramov.com">Nikita@Abramov.com</a></div>
+			</div>
+			<div class="social_networks">
+				<button class="show_popup order">Заказать звонок</button>
+				<div class="networks">
+					<ul>
+						<li class="vkontakte"><a href="https://vk.com/"></a></li>
+						<li class="facebook"><a href="https://www.facebook.com/"></a></li>
+						<li class="twitter"><a href="https://twitter.com/"></a></li>
+						<li class="instagram"><a href="https://www.instagram.com"></a></li>
+					</ul>
+				</div>
+			</div>
+ 		</div>
+ 	</div>
+ 	<footer class="footer"><small>&copy; Никита Абрамов, 2019</small></footer>
+ 	<script src="jquery-3.4.1.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="slick-1.8.1/slick/slick.min.js"></script>
+	 <script src="portfolio.js"></script>
+</body>
+</html>
