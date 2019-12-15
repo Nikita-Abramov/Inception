@@ -804,6 +804,63 @@ line-height: 30px;
 	}
 }
 
+
+@media screen and (min-width: 770px) and (max-width: 974px) {
+
+.center__one {
+    left: 51%;
+}
+
+.center__two {
+    top: 67%;
+    left: 51%;
+}
+
+.center__four {
+    left: 25%;
+    top: -14%;
+}
+
+.center {
+	background-size: 61%;
+}
+
+.fixed-container {
+	width: 100%;
+}
+
+.my-services__doings {
+    flex-wrap: wrap;
+    margin: 0 12%;
+}
+
+.my-services__know-more2 {
+    margin: 0px 28%;
+}
+
+.my-examples__headline_know-more2 {
+    margin: 12% 32%;
+}
+
+.my-examples__headline_works img {
+    width: 91%;
+}
+
+.others__about_phone-mail {
+   padding-right: 0;
+   padding-left: 0;
+}
+
+.social_networks {
+    margin-right: -13px;
+    padding-right: 5%;
+}
+
+
+
+
+}
+
 @media screen and (max-width: 768px) {
 
 .active {
