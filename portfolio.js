@@ -3,7 +3,10 @@ var backButton = $('.back_button')
 		var popup_feedback_form = $('.popup_feedback_form')
 		var popup = $('.popup');
 		var header__phone_btn = $('.header__phone-btn');
+		var backButton = `<button class="back_button"></button>`;
+		var nextButton = `<button class="next_button"></button>`;
 		$('.my-examples__slick').slick({
+				arrows: true,
 	  			infinite: true,
 	  			dots: true,
 	    		slidesToShow: 3, 
