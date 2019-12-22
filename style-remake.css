@@ -760,6 +760,10 @@ line-height: 30px;
     	width: 322px;
 	}
 
+	.arrows {
+		display: none;
+	}
+
 	.my-examples__headline h1 {
     margin: 90px auto;
 }
@@ -796,7 +800,11 @@ line-height: 30px;
     	font-weight: normal;
 	}
 
-	.arrows {
+	.back_button {
+		display: none;
+	}
+
+	.next_button {
 		display: none;
 	}
 
@@ -846,6 +854,14 @@ line-height: 30px;
 .my-examples__headline_works img {
     width: 91%;
 }
+
+.back_button {
+		display: none;
+	}
+
+	.next_button {
+		display: none;
+	}
 
 .others__about_phone-mail {
    padding-right: 0;
@@ -959,6 +975,14 @@ padding-bottom: 55px;
     padding: 22px 75px;
 }
 
+.back_button {
+		display: none;
+	}
+
+	.next_button {
+		display: none;
+	}
+
 .adaptive__all-devices h2 {
 	font-size: 37px;
 }
@@ -987,9 +1011,6 @@ left: 12%;
 	padding-left: 0px;
 }
 
-.arrows {
-	display: none;
-}
 .order{
 	width: 230px;
 }
@@ -1061,6 +1082,15 @@ left: 12%;
 
 	.adaptive__all-devices p {
 		padding-left: 14px;
+	}
+
+
+	.back_button {
+		display: none;
+	}
+
+	.next_button {
+		display: none;
 	}
 
 }
@@ -1177,6 +1207,15 @@ left: 12%;
 
 	.my-examples__headline_know-more2 {
     margin: 0 19%;
+	}
+
+
+	.back_button {
+		display: none;
+	}
+
+	.next_button {
+		display: none;
 	}
 
 	.others__about {
@@ -1441,6 +1480,15 @@ left: 12%;
 		padding-bottom: 36px;
 	}
 
+
+	.back_button {
+		display: none;
+	}
+
+	.next_button {
+		display: none;
+	}
+
 	.adaptive {
 		margin-top: -52px;
 		padding-bottom: 0px;
@@ -1522,10 +1570,6 @@ left: 12%;
  		margin-left: 11px;
 	}
 
-	.arrows {
-		display: none;
-	}
-
 	.footer {
 		height: 50px;
 	}
@@ -1534,6 +1578,10 @@ left: 12%;
 		font-size: 12px;
 		padding-top: 18px;
 	}
+
+	 .slick-arrow {
+        display: none;
+    }
 }
 
 	
